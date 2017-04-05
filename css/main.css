@@ -1,0 +1,461 @@
+
+body,
+figure,
+blockquote{
+  margin: 0;
+}
+
+body{
+  background: #111;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.deep_field_image figure{
+  margin-top: 3em;
+}
+
+figcaption{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: .75em;
+  margin-left: 1em;
+}
+
+
+#banner {
+  background: #999 url("../img/dusk.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 5% 0;
+  }
+
+/* change this font*/
+#banner h1 {
+  display: inline-block;
+  font: bold 3em/1.15 "Trebuchet MS", sans-serif;
+  color: #eee;
+  padding: .3em;
+  margin: .5em;
+  margin-bottom: 1.5em;
+
+  }
+
+nav{
+
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+nav h2{
+  font-family: "verdana", sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: #000;
+  line-height: 2.5em;
+
+}
+
+nav ol{
+  list-style-type: none;
+  background: #fff;
+  font: 1.02em "futura", sans-serif;
+
+}
+
+summary{
+  color: #fff;
+  font-family: "futura", sans-serif;
+  font-weight: lighter;
+}
+
+.visuallyhidden {
+
+position: absolute;
+
+overflow: hidden;
+
+clip: rect(0, 0, 0, 0);
+
+height: 1px; width: 1px;
+
+margin: -1px; padding: 0; border: 0;
+
+}
+
+
+
+
+/* quote blocks */
+
+#quote_1{
+  background: #fff;
+  padding: 2em;
+
+
+  }
+
+#quote_1 blockquote{
+  font-family: "futura", "franklin Gothic Medium", "arial", sans-serif;
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+#quote_2 {
+  background: #fff;
+  padding: 2em;
+}
+
+#quote_2 blockquote{
+  font-family: "futura", "franklin Gothic Medium", "arial", sans-serif;
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+#quote_3 {
+  background: #fff;
+  padding: 2em;
+}
+
+#quote_3 blockquote{
+  font-family: "futura", "franklin Gothic Medium", "arial", sans-serif;
+  font-size: 2em;
+  margin-left: 1em;
+
+}
+
+#quote_4 {
+  background: #fff;
+  padding: 2em;
+}
+
+#quote_4 blockquote{
+  font-family: "futura", "franklin Gothic Medium", "arial", sans-serif;
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+h6{
+  font-size: 3em;
+  margin-top: .25em;
+  margin-bottom: .5em;
+
+}
+
+
+
+
+
+h1{
+  color: #fff;
+}
+
+
+/* the Ultra Deep Field */
+
+#ultra-deep h1{
+
+
+  font-family: "Geneva", "Franklin Gothic Medium", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25em;
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+
+#ultra-deep ul{
+  font-family: "Gill Sans","Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  line-height: 3em;
+  margin-left: 10.5em;
+  margin-top: 4em;
+}
+
+#ultra-deep{
+  padding-bottom: 14em;
+  margin-left: 1em;
+}
+
+
+
+/* Process */
+
+#process h1{
+
+
+  font-family: "Geneva", "Franklin Gothic Medium", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25em;
+  margin-left: 1.5em;
+  margin-top: 7em;
+}
+
+#process ul{
+  font-family: "Gill Sans","Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  line-height: 3em;
+  margin-left: 10.5em;
+  margin-top: 4em;
+}
+
+#process{
+  padding-bottom: 3em;
+  margin-left: 1em;
+}
+
+
+/* sci-cont*/
+
+#sci-cont h1{
+
+
+  font-family: "Geneva", "Franklin Gothic Medium", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25em;
+  margin-left: 1.5em;
+  margin-top: 7em;
+  margin-bottom: 3em;
+}
+
+/* extreme */
+
+#extreme h1{
+
+
+  font-family: "Geneva", "Franklin Gothic Medium", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25em;
+  margin-left: 1.5em;
+  margin-top: 7em;
+  margin-bottom: 3em;
+}
+
+
+
+
+
+
+/* GENERAL STUFF */
+
+h2{
+  color: #fff;
+}
+
+h5{
+  color: #fff;
+}
+
+p{
+  color: #fff;
+  font: 1em "Gill Sans","Franklin Gothic Medium", sans-serif;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 3em
+
+}
+
+ul{
+  color: #fff;
+  list-style-type: none;
+}
+
+footer{
+  text-align: center;
+  padding: 2em;
+}
+
+.back-to-top a{
+  color: #fff;
+
+  font: 1em "Gill Sans","Franklin Gothic Medium", sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Ikaros';
+    src: url("../ikaros-regular-webfont.woff2") format('woff2'),
+         url("../ikaros-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+
+@font-face {
+    font-family: "Acron";
+    src: url("../font/arcon-regular-webfont.woff2") format("woff2"),
+         url("../font/arcon-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (min-width: 40em) {
+
+  .ultra_content p,
+  .sci-cont_contents p,
+  .extreme_contents p{
+
+    padding-left: 10em;
+    padding-right: 10em;}
+
+    #ultra-deep h1{
+      margin-left: 4em;
+      font-size: 2em;
+
+    }
+
+    #ultra-deep ul{
+      margin-left: 20em
+    }
+
+    #process h1{
+      margin-left: 4em;
+      font-size: 2em;
+
+    }
+
+    #process ul{
+      margin-left: 30em
+    }
+
+    #sci-cont h1{
+      margin-left: 4em;
+      font-size: 2em;
+    }
+
+    #extreme h1{
+      margin-left: 4em;
+      font-size: 2em;
+
+    }
+
+
+  }
+
+  @media (min-width: 50em) {
+
+    .ultra_content p,
+    .sci-cont_contents p,
+    .extreme_contents p{
+
+      padding-left: 20em;
+      padding-right: 20em;
+
+
+    }
+
+  }
+
+
+
+
+@media (min-width: 60em) {
+
+  #banner {
+    text-align: center;
+  }
+
+  #quote_1,
+  #quote_2,
+  #quote_3,
+  #quote_4{
+    text-align: center;
+  }
+
+  h6{
+    text-align: left;
+    margin-left: 3em;
+    font-size: 4em;
+  }
+
+#ultra-deep h1{
+  margin-left: 8em;
+  font-size: 2em;
+
+}
+
+#ultra-deep ul{
+  margin-left: 50em
+}
+
+#process h1{
+  margin-left: 8em;
+  font-size: 2em;
+
+}
+
+#process ul{
+  margin-left: 50em
+}
+
+#sci-cont h1{
+  margin-left: 8em;
+  font-size: 2em;
+}
+
+#extreme h1{
+  margin-left: 8em;
+  font-size: 2em;
+
+}
+
+
+.deep_field_image figure{
+
+  text-align: center;
+}
+
+figcaption {
+margin-top: 1em;
+
+}
+
+img{
+  max-width: 60%;
+  height: auto;
+}
+
+.process_content {
+  display: inline-block;
+  float: right;
+  width: 30.3333333333333333%;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: -30em;
+  position: relative;
+}
+
+.ultra_content p,
+.sci-cont_contents p,
+.extreme_contents p{
+
+  padding-left: 25em;
+  padding-right: 25em;
+
+
+}
+
+
+nav li{
+  display: inline;
+  padding: 3em;
+  text-align: center;
+  margin-left: 2em;
+
+}
+
+nav ol{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+}
